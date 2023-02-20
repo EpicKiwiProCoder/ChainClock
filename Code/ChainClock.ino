@@ -38,7 +38,7 @@ void setup() {
 
   home();
   //delay(10000);
-  connectWifi("ABCM Not in Range", "marion013");
+  connectWifi("SSID", "PASSWORD");
   Udp.begin(2390U);
   refreshTime();
 }
